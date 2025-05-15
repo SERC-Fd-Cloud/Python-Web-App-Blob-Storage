@@ -27,4 +27,4 @@ def upload_file():
         return 'Azure Storage connection string not set. Please set the AZURE_STORAGE_CONNECTION_STRING environment variable.'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run()
